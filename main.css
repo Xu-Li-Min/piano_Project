@@ -1,0 +1,173 @@
+@charset "UTF-8";
+* {
+  font-family: 微軟正黑體;
+}
+
+html {
+  width: 100%;
+}
+
+body {
+  height: 1000px;
+  position: relative;
+  width: 100%;
+}
+
+.block {
+  text-align: center;
+  width: 80px;
+  height: 35px;
+  display: block;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  font-weight: bold;
+  background-color: #D7C4BB;
+  z-index: 100;
+}
+.block a {
+  font-size: 24px;
+  text-decoration: none;
+}
+.block a:hover {
+  color: #f24;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  font-weight: bold;
+}
+
+p {
+  font-size: 18px;
+  text-align: justify;
+}
+
+nav.navbar {
+  transition: 0.5s;
+}
+
+nav.navbar.navbar-default.navbar-fixed-top.navbar-top {
+  background-color: transparent;
+}
+nav.navbar.navbar-default.navbar-fixed-top.navbar-top a {
+  color: white;
+  transition: 0.5s;
+}
+nav.navbar.navbar-default.navbar-fixed-top.navbar-top a:hover {
+  color: #ff6e3a;
+}
+
+header.jumbotron {
+  text-align: center;
+  background-image: url(https://images8.alphacoders.com/479/thumb-1920-479937.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  margin-bottom: 0;
+}
+header.jumbotron .container {
+  color: white;
+  padding: 200px 0px;
+}
+header.jumbotron hr {
+  max-width: 50px;
+  border: solid 2px #ff6e3a;
+}
+header.jumbotron h4 {
+  color: rgba(255, 255, 255, 0.5);
+  font-weight: normal;
+}
+
+section {
+  padding: 50px 0;
+}
+
+section#section_ask {
+  background-color: #ff6e3a;
+}
+section#section_ask .col-sm-5.img {
+  background-image: url(https://library.kissclipart.com/20180908/fee/kissclipart-playing-piano-drawing-clipart-piano-drawing-clip-a-38785dfa42cba6ab.jpg);
+  height: 400px;
+  background-size: cover;
+  mix-blend-mode: multiply;
+}
+section#section_ask h2 {
+  margin-top: 170px;
+  padding: 0 20px;
+}
+
+section#section_about img {
+  width: 100%;
+}
+section#section_about .img_wrap {
+  height: 220px;
+  overflow: hidden;
+}
+section#section_about p {
+  text-align: justify;
+}
+
+section#section_story {
+  background-color: #222;
+  color: white;
+  padding: 0;
+}
+section#section_story .col-sm-5 {
+  background-image: url(http://www.baimg.com/uploadfile/2015/0510/BTW_2015051047337.jpg);
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  height: 400px;
+}
+section#section_story .col-sm-5 .cross {
+  position: absolute;
+  left: 23%;
+  top: 30%;
+  color: red;
+  font-weight: bold;
+  font-size: 30px;
+}
+section#section_story .col-sm-7 {
+  text-align: center;
+}
+
+.img1 img {
+  width: 70px;
+  height: 70px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.col-sm-12.features {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+#section_future .img2 img {
+  width: 100%;
+}
+#section_future .frature {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+#section_future .img1 {
+  padding-top: 60px;
+}
+
+footer.jumbotron {
+  text-align: center;
+  background-image: url(https://images5.alphacoders.com/679/thumb-1920-679891.jpg);
+  background-size: cover;
+  margin-bottom: 0;
+}
+footer.jumbotron input {
+  background-color: transparent;
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+footer.jumbotron .container {
+  color: white;
+}
+footer.jumbotron hr {
+  max-width: 50px;
+  border: solid 2px #ff6e3a;
+}
