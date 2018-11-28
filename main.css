@@ -8,9 +8,9 @@ html {
 }
 
 body {
-  height: 1000px;
   position: relative;
   width: 100%;
+  overflow-x: hidden;
 }
 
 .block {
